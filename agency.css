@@ -61,3 +61,59 @@
     border: none;
     padding: 12px 20px;
 }
+.service-container{
+    height: 100vh;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode:overlay ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    width: 150px  ;
+ height: 100px;
+    padding: 50px;
+   color: black;
+    background-color: white;
+    border-radius: 6px;
+    ;
+}
+.description{
+    width: 50%;
+}
+.first-box{
+   display: flex;
+   gap: 3px;
+   margin-top: 5px;
+}
+.img{
+    height: 70px;
+    width: 70;
+    border-radius: 50px;
+}
+.owner-container{
+    display: flex;
+    gap: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 2px solid red;
+    padding-right: 40px ;
+}
+.button{
+    background-color: red;
+    padding: 25px 20px ;
+    color: white;
+    text-size-adjust: bold;
+
+}
